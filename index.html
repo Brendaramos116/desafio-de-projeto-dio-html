@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Aprendendo HTML</h1>
+    <hr>
+    <h2>Títulos</h2>
+    <p>
+        As tags h1, h2, h3, h4, h5 e h6 geralmente são utilizadas para títulos de textos e 
+        são dispostas em ordem decrescente de tamanho, do maior (h1) ao menor (h6).<br>
+        Por exemplo:<br>
+        <h1>H1</h1>
+        <h2>H2</h2>
+        <h3>H3</h3>
+        <h4>H4</h4>
+        <h5>H5</h5>
+        <h6>H6</h6>
+    </p>
+    <h2>Parágrafo</h2>
+    <p>
+        A tag (p) é utilizada para fazer parágrafos no site.</p>
+    </p>
+    <h2>Marca Texto</h2>
+    <p>
+        A tag (mark) no HTML é usada para destacar ou marcar texto que deve ser considerado relevante ou <br>
+        importante em um determinado contexto. Por padrão, o texto envolvido pela tag (mark) é exibido com <br>
+        um fundo amarelo, simulando o efeito de marca-texto.<br>
+        Por exemplo:<br>
+        Este é um <mark>texto destacado</mark> para chamar a atenção.
+    </p>
+    <h2>A Tag Small</h2>
+    <p>
+        A tag (small) no HTML é usada para indicar texto secundário ou menos importante, geralmente exibindo-o em <br>
+        um tamanho de fonte menor do que o texto ao redor.<br>
+        Por exemplo:<br>
+        Indicar avisos legais ou informações complementares: © Brenda Ramos. <small>Todos os direitos reservados.</small>
+    </p>
+    <h2>Estilos Textuais</h2>
+    <p>
+        <h3>Tag i</h3>
+        <p>
+            A tag (i) (de italic) é usada para aplicar estilo itálico ao texto. Além disso, ela indica que o texto tem <br>
+            um significado especial ou deve ser destacado de alguma forma, como palavras estrangeiras, nomes científicos <br>
+            ou pensamentos internos.<br>
+            Por Exemplo:<br>
+            Eu adoro a expressão <i>carpe diem</i>.
+        </p>
+        <h3>Tag u</h3>
+        <p>
+            A tag (u) (de underline) é usada para aplicar sublinhado ao texto. Em termos semânticos, ela pode ser usada <br>
+            para indicar texto que requer destaque por algum motivo, como erros de ortografia, nomes próprios em um <br>
+            documento ou algo incomum.<br>
+            Por Exemplo:<br>
+            O nome correto é <u>João da Silva</u>.
+        </p>
+        <h3>Tag strong</h3>
+        <p>
+            A tag (strong) no HTML é usada para indicar importância ou ênfase forte em um texto. Por padrão, o texto <br>
+            dentro da tag (strong) é exibido em negrito nos navegadores.<br>
+            Por Exemplo: <br>
+            É <strong>obrigatório</strong> preencher todos os campos do formulário.<br>
+            Obs.: Também é utilizada para exibir o texto em negrito a tag b.
+        </p>
+    </p>
+    <h2>Listas</h2>
+    <h3>Listas Ordenadas</h3>
+    <p>
+        As listas ordenadas no HTML são criadas com a tag ol (de ordered list). Elas são usadas para exibir itens em <br>
+        uma sequência numérica ou ordenada, indicando que a ordem dos itens é importante.<br>
+        Por Exemplo: <br>
+        <ol>
+            <li>Primeiro item</li>
+            <li>Segundo item</li>
+            <li>Terceiro item</li>
+        </ol>
+        <h4>Atributos importantes da tag ol:</h4>
+            <p>
+                1. type: Define o estilo de numeração.<br>
+                Valores possíves
+                <ul>
+                    <li>"1": Números (padrão).</li>
+                    <li>"A": Letras maiúsculas..</li>
+                    <li>"a": Letras minúsculas.</li>
+                    <li>"I": Números romanos maiúsculos..</li>
+                    <li>"i": Números romanos minúsculos..</li>
+                </ul>
+            </p>
+    </p>
+    <h3>Listas Não Ordenadas</h3>
+    <p>
+        As listas não ordenadas no HTML são criadas com a tag ul (unordered list). Elas são usadas para exibir itens <br>
+        onde a ordem não é importante, geralmente com marcadores (bullets) ao lado dos itens.<br>
+        Por Exemplo:<br>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <h4>Personalização dos marcadores (list-style-type):</h4>
+        <p>
+            O estilo dos marcadores pode ser modificado com o atributo CSS list-style-type.
+        </p>
+        <p>
+            Exemplos de estilos:<br>
+            1.Disco (padrão): disc
+            <ul style="list-style-type: disc;">
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ul>
+            <br>
+            2. Círculo: circle
+            <ul style="list-style-type: circle;">
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ul>
+            <br>
+            3.Quadrado: square
+            <ul style="list-style-type: square;">
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ul>
+            <br>
+            4. Sem marcadores: none
+            <ul style="list-style-type: none;">
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ul>
+        </p>
+    </p>
+    <h2>Tag li</h2>
+    <p>
+        A tag li (de list item) no HTML é usada para representar itens individuais dentro de uma lista. Ela pode ser <br>
+        usada tanto em listas ordenadas (ol) quanto em listas não ordenadas (ul).<br>
+        <h4>Exemplo com lista não ordenada:</h4>
+        (ul)<br>
+            (li)Item 1(li)<br>
+            (li)Item 2(li)<br>
+            (li)Item 3(li)<br>
+        (ul):<br>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <br>
+        <h4>Exemplo com lista ordenada:</h4>
+        (ol)<br>
+        (li)Passo 1(li)<br>
+        (li)Passo 2(li)<br>
+        (li)Passo 3(li)<br>
+        (ol):<br>
+        <ol>
+            <li>Passo 1</li>
+            <li>Passo 2</li>
+            <li>Passo 3</li>
+        </ol>
+    </p>
+    <h2>Hiperlink</h2>
+    <p>
+        A tag a no HTML é usada para criar hiperlinks, permitindo que o usuário navegue entre páginas da web, seções de <br>
+        um documento ou até mesmo inicie downloads. A a significa anchor (âncora).<br>
+        Por Exemplo:<br>        
+        (a href="https://www.exemplo.com")Clique aqui para acessar o site (a) <br>
+        <a href="https://www.exemplo.com">Clique aqui para acessar o site</a>
+        <h3>Atributos principais da tag (a):</h3>
+        <p>
+            1. href (Hyperlink Reference):<br>
+            Define o destino do link. Pode ser uma URL externa, um caminho interno ou um identificador de âncora.<br>
+            - URL externa:<br>
+            (a href="https://www.google.com")Google(a)<br>
+            Resultado:<br>
+            <a href="https://www.google.com">Google</a><br>
+            - Caminho interno:<br>
+            (a href="/sobre.html")Sobre nós(/a)<br>
+            Resultado:<br>
+            <a href="/sobre.html">Sobre nós</a><br>
+            - Âncora interna (mesma página):<br>
+            (a href="#seção1")Ir para a seção 1(/a)<br>
+            Resultado:<br>
+            <a href="#seção1">Ir para a seção 1</a><br>
+            <br>
+            2.target:<br>
+            Define como o link será aberto.<br>
+            _self (padrão): Abre no mesmo navegador.<br>
+            _blank: Abre em uma nova aba ou janela.<br>
+            _parent: Abre no quadro pai (em contexto de frames).<br>
+            _top: Abre na janela principal, ignorando frames. <br>
+            (a href="https://www.exemplo.com" target="_blank")Abrir em nova aba(a)<br>
+            <br>
+            3. rel:<br>
+            Define a relação entre o documento atual e o link. Alguns valores comuns são:<br>
+            - nofollow: Indica aos mecanismos de busca para não seguirem o link.<br>
+            - noopener: Melhora a segurança ao abrir links em nova aba. <br>
+            (a href="https://www.exemplo.com" target="_blank" rel="noopener")Link seguro(/a)<br>
+            <br>
+            4. download:<br>
+            - Permite que o link seja usado para fazer o download de um arquivo.<br>
+            (a href="documento.pdf" download)Baixar PDF(/a)
+        </p>  
+    </p> 
+    <h2>A Tag hr</h2>
+    <p>
+        A tag hr no HTML é usada para inserir uma linha horizontal que serve para separar conteúdo em <br>
+        uma página web. Ela é uma tag autocontida (não requer uma tag de fechamento) e, além de ter um <br>
+        papel visual, possui significado semântico para indicar uma mudança de tópico ou uma divisão temática.<br>
+        Por Exemplo:<br>
+        (p)Seção(p)<br>
+        (hr)<br>
+        (p)Seção 2(p)<br>
+        <p>Seção 1</p>
+        <hr>
+        <p>Seção 2</p>
+    </p>
+    <h2>A Tag sub</h2>
+    <p>
+        A tag sub no HTML é usada para exibir texto em subscrito, ou seja, o texto é posicionado abaixo da linha de <br> 
+        base do texto normal. Ela é comumente utilizada em expressões químicas, fórmulas matemáticas, e outras situações <br> 
+        em que a formatação subscrita é necessária.<br>
+        Exemplo:<br>
+        (p)H(sub)2(/sub)O(/p)<br>
+        <p>H<sub>2</sub>O</p>
+        Resultado:<br>
+        - H₂O (onde o número "2" está abaixo da linha de base)
+    </p>
+    <h2>A Tag sup</h2>
+    <p>
+        A tag sup no HTML é usada para exibir texto em sobrescrito, ou seja, o texto é posicionado acima da linha de <br>
+        base do texto normal. Ela é comumente utilizada em expressões matemáticas, fórmulas químicas, potências, <br>
+        expoentes e outras situações em que a formatação sobrescrita é necessária.<br>
+        Exemplo:<br>
+        (p)E = mc(sup)2(/sup)(/p)<br>
+        <p>E = mc<sup>2</sup></p>
+        Resultado:<br>
+        - E = mc² (onde o número "2" está acima da linha de base)
+    </p>
+    <h2>Citação</h2>
+    <p>
+        A tag blockquote no HTML é usada para representar citações em bloco, ou seja, trechos de texto retirados de <br>
+        uma fonte externa. Ela é normalmente utilizada para destacar uma citação longa ou importante, e geralmente é <br> 
+        exibida com uma margem à esquerda para indicar que se trata de uma citação.<br>
+        Exemplo:<br>
+        (blockquote)<br>
+            "A vida é o que acontece enquanto estamos ocupados fazendo outros planos."<br>
+            (footer)- John Lennon(/footer)<br>
+        (/blockquote)<br>
+        <blockquote>
+            "A vida é o que acontece enquanto estamos ocupados fazendo outros planos."
+            <footer>- John Lennon</footer>
+        </blockquote>
+        <h3>Atributos principais:</h3>
+        <p>
+            1. cite:<br>
+            O atributo cite é utilizado para fornecer a URL ou referência de onde a citação foi retirada. Isso ajuda a <br>
+            dar contexto à citação e pode ser útil para fins de credibilidade.<br>
+            Exemplo:<br>           
+            (blockquote cite="https://www.exemplo.com/autor")<br>
+            "A persistência é o caminho do êxito."<br>
+            (footer)- Charles Chaplin(/footer)<br>
+            (/blockquote)<br>          
+
+            <blockquote cite="https://www.exemplo.com/autor">
+            "A persistência é o caminho do êxito."
+            <footer>- Charles Chaplin</footer>
+            </blockquote>
+            2. footer:
+            Dentro da tag (blockquote), é comum usar a tag (footer) para fornecer informações adicionais sobre a <br>
+            citação, como o autor, a fonte ou a data.<br>
+        </p>
+    </p>
+</body>
+</html>
